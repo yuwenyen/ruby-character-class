@@ -12,6 +12,6 @@ require_relative '../lib/hero.rb'
 class HeroTest < Minitest::Test
   # Heroクラスのインスタンスが生成(new)できることを確認する
   def test_hero
-    assert @hero
+    assert Hero.new
   end
 end
